@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def main():
-    x=np.linspace(-np.pi,np.pi,1024)
+    x=np.linspace(0,2*np.pi,1024)
     s=np.sin(x)
     c=np.cos(x)
     plt.plot(x,s)
