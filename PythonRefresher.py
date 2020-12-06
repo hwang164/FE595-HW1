@@ -7,6 +7,7 @@ def main():
     c=np.cos(x)
     plt.plot(x,s)
     plt.plot(x,c)
+    plt.legend()
     plt.show()
 
 
